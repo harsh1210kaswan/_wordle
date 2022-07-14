@@ -43,7 +43,7 @@ function App() {
                 </span>
               </button>
             </div>
-            <img src={theme === "dark" ? "https://i.ibb.co/wLrpZKS/helpb.png" : "https://i.ibb.co/tXzr3RG/helpw.png"} id='imag' />
+            <img src={theme === "dark" ? 'https://i.ibb.co/wLrpZKS/helpb.png' : 'https://i.ibb.co/tXzr3RG/helpw.png'} id='imag' />
           </div>
         </div>
         }
