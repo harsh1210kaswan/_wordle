@@ -43,12 +43,12 @@ function App() {
                 </span>
               </button>
             </div>
-            <img src={theme === "dark" ? "../img/helpb.png" : "../img/helpw.png"} id='imag' />
+            <img src={theme === "dark" ? "https://i.ibb.co/wLrpZKS/helpb.png" : "https://i.ibb.co/tXzr3RG/helpw.png"} id='imag' />
           </div>
         </div>
         }
         <nav>
-          <img src={theme === "dark" ? `../img/img.png` : `../img/imgd.png`} onClick={() => { setModalOpen(true); }} />
+          <img src={theme === "dark" ? `https://i.ibb.co/zn8Tb8r/img.png` : `https://i.ibb.co/1v2CLtd/imgd.png`} onClick={() => { setModalOpen(true); }} />
           <h1>Wordle</h1>
           <div className="switch">
             <span>☀️</span>
@@ -67,7 +67,6 @@ function App() {
 export default App
 
 /* 
-
 data we need to track:
   -- solution
     -- 5 letter string, e.g. 'drain'
@@ -81,7 +80,6 @@ data we need to track:
     -- array of letter objects [{key: 'a', color: 'green'}, {}, {} ...]
   -- number of turns
     -- an integer 0 - 6
-
 game process:
   -- entering words:
     -- user enters a letter & a square is filled with that letter
@@ -103,5 +101,4 @@ game process:
       -- modal to say 'well done'
     -- when the user runs out of guesses
       -- modal to say 'unlucky'
-
 */
