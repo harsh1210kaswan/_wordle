@@ -1,0 +1,13 @@
+{
+  "main.css": "/_wordle/static/css/main.51a13a8f.chunk.css",
+  "main.js": "/_wordle/static/js/main.eca50505.chunk.js",
+  "main.js.map": "/_wordle/static/js/main.eca50505.chunk.js.map",
+  "static/js/1.ec2d9068.chunk.js": "/_wordle/static/js/1.ec2d9068.chunk.js",
+  "static/js/1.ec2d9068.chunk.js.map": "/_wordle/static/js/1.ec2d9068.chunk.js.map",
+  "runtime~main.js": "/_wordle/static/js/runtime~main.207356b5.js",
+  "runtime~main.js.map": "/_wordle/static/js/runtime~main.207356b5.js.map",
+  "static/css/main.51a13a8f.chunk.css.map": "/_wordle/static/css/main.51a13a8f.chunk.css.map",
+  "index.html": "/_wordle/index.html",
+  "precache-manifest.a485ceff623d70135398f7e87a6df693.js": "/_wordle/precache-manifest.a485ceff623d70135398f7e87a6df693.js",
+  "service-worker.js": "/_wordle/service-worker.js"
+}
